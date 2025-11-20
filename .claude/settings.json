@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(yt-content-strategist:youtube-title)",
+      "Skill(yt-content-strategist:youtube-thumbnail)",
+      "Skill(yt-content-strategist:youtube-video-hook)",
+      "Skill(yt-content-strategist:youtube-research-video-topic)",
+      "Skill(yt-content-strategist:youtube-plan-new-video)",
+      "Bash(thumbkit)",
+      "Bash(thumbkit docs:*)",
+      "Bash(mkdir:*)",
+      "Bash(thumbkit generate:*)",
+      "Bash(thumbkit edit:*)",
+      "Read(~/.claude/plugins/marketplaces/ai-launchpad/yt-content-strategist/skills/youtube-title/references/design-requirements.md)",
+      "Read(~/.claude/plugins/marketplaces/ai-launchpad/yt-content-strategist/skills/youtube-thumbnail/references/design-requirements.md)",
+      "Read(~/.claude/plugins/marketplaces/ai-launchpad/yt-content-strategist/skills/youtube-thumbnail/references/prompting-guidelines.md)",
+      "mcp__plugin_yt-content-strategist_youtube-analytics__get_channel_details",
+      "mcp__plugin_yt-content-strategist_youtube-analytics__search_videos",
+      "mcp__plugin_yt-content-strategist_youtube-analytics__get_video_details",
+      "mcp__plugin_yt-content-strategist_youtube-analytics__get_video_comments"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
