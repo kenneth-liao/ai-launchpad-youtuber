@@ -65,7 +65,7 @@ cd ai-launchpad-youtuber
 Start Claude Code and run the following command:
 
 ```bash
-/plugin marketplace add https://gitlab.com/company/plugins.git
+/plugin marketplace add https://github.com/kenneth-liao/ai-launchpad-marketplace.git
 ```
 
 5. Install the YT Content Strategist plugin:
