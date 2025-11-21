@@ -46,9 +46,21 @@ Verify the installation by running the command `thumbkit` in any terminal. You s
 
 ## Getting Started
 
-1. Copy `.env.example` to `.env` and fill in the required variables.
+1. Clone this repository.
 
-2. Add the [AI Launchpad Marketplace](https://github.com/kenneth-liao/ai-launchpad-marketplace).
+```bash
+git clone https://github.com/kenneth-liao/ai-launchpad-youtuber.git
+```
+
+2. Change to the project directory.
+
+```bash
+cd ai-launchpad-youtuber
+```
+
+3. Copy `.env.example` to `.env` and fill in the required variables.
+
+4. Add the [AI Launchpad Marketplace](https://github.com/kenneth-liao/ai-launchpad-marketplace).
 
 Start Claude Code and run the following command:
 
@@ -56,7 +68,7 @@ Start Claude Code and run the following command:
 /plugin marketplace add https://gitlab.com/company/plugins.git
 ```
 
-3. Install the YT Content Strategist plugin:
+5. Install the YT Content Strategist plugin:
 
 ```bash
 /plugin install yt-content-strategist@ai-launchpad-marketplace
@@ -64,7 +76,7 @@ Start Claude Code and run the following command:
 
 Or you can do this interactively by running `/plugin`.
 
-4. Restart Claude Code for the plugin to take effect.
+6. Restart Claude Code for the plugin to take effect.
 
 You can verify the plugin interactively by running `/plugin` and checking that `yt-content-strategist` is installed. You can also explore the skills, agents, and MCP servers available with the plugin.
 
@@ -92,4 +104,6 @@ Craft a hook for a video about turning Claude Code into a personal assistant.
 
 5. Generate a complete video plan (includes research, title, thumbnail, hook, and outline)
 
-Plan a video about turning Claude Code into my personal assistant.
+    a. Plan a video about turning Claude Code into my personal assistant.
+
+    b. Help me plan my next youtube video about turning Claude Code into a Youtube content strategist using Claude Plugins. I want to give a brief intro to Claude plugins and then give a step by step walkthrough about how the plugin works to give viewers an idea of how they can build their own to solve complex, long-running problems.
